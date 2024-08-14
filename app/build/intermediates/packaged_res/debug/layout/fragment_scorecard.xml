@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Large" android:textColor="@color/fav_text_color" android:gravity="center" android:id="@+id/scoreCardNotFound" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="Scorecard not found" android:fontFamily="@font/days_one"/>
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <androidx.cardview.widget.CardView android:id="@+id/teamABatsmanLayout" android:layout_width="match_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@color/text_color">
+                <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Small" android:textColor="@color/white" android:id="@+id/teamAInningsName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:text="India Innings" android:fontFamily="@font/days_one" android:layout_marginStart="8dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+                    <TextView android:textColor="@color/white" android:id="@+id/teamAInningsScore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="188-7 (20 Ov)" android:fontFamily="sans-serif-medium" android:layout_marginEnd="10dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@+id/aBatsmanUpIcon" app:layout_constraintTop_toTopOf="parent"/>
+                    <ImageView android:id="@+id/aBatsmanUpIcon" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:src="@drawable/ic_baseline_keyboard_arrow_up_24" android:layout_marginEnd="10dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@+id/aBatsmanHead" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_below="@+id/teamABatsmanLayout" app:cardBackgroundColor="@color/teal_700">
+                <LinearLayout android:paddingTop="10sp" android:paddingBottom="10sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="2">
+                    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textSize="15sp" android:textColor="@color/white" android:id="@+id/playerName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Batsman" android:fontFamily="@font/oswald" android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="match_parent" android:weightSum="6" android:layout_weight="1">
+                        <TextView android:textColor="@color/white" android:id="@+id/playerRuns" android:layout_width="0dp" android:layout_height="wrap_content" android:text="R" android:layout_weight="1" android:fontFamily="@font/oswald"/>
+                        <TextView android:textColor="@color/white" android:id="@+id/playerBall" android:layout_width="0dp" android:layout_height="wrap_content" android:text="B" android:layout_weight="1" android:fontFamily="@font/oswald"/>
+                        <TextView android:textColor="@color/white" android:id="@+id/playerFore" android:layout_width="0dp" android:layout_height="wrap_content" android:text="4s" android:layout_weight="1" android:fontFamily="@font/oswald"/>
+                        <TextView android:textColor="@color/white" android:id="@+id/playerSix" android:layout_width="0dp" android:layout_height="wrap_content" android:text="6s" android:layout_weight="1" android:fontFamily="@font/oswald"/>
+                        <TextView android:textColor="@color/white" android:id="@+id/playerSR" android:layout_width="0dp" android:layout_height="wrap_content" android:text="SR" android:layout_weight="2" android:fontFamily="@font/oswald"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/teamABatsmanRecyclerView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/aBatsmanHead"/>
+            <androidx.cardview.widget.CardView android:id="@+id/aBowlerHead" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_below="@+id/teamABatsmanRecyclerView" app:cardBackgroundColor="@color/text_color">
+                <LinearLayout android:paddingTop="10sp" android:paddingBottom="10sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="2">
+                    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textSize="15sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Bolwer" android:fontFamily="@font/oswald" android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="match_parent" android:weightSum="6" android:layout_weight="1">
+                        <TextView android:textColor="@color/white" android:layout_width="0dp" android:layout_height="wrap_content" android:text="O" android:layout_weight="1" android:fontFamily="@font/oswald"/>
+                        <TextView android:textColor="@color/white" android:layout_width="0dp" android:layout_height="wrap_content" android:text="M" android:layout_weight="1" android:fontFamily="@font/oswald"/>
+                        <TextView android:textColor="@color/white" android:layout_width="0dp" android:layout_height="wrap_content" android:text="R" android:layout_weight="1" android:fontFamily="@font/oswald"/>
+                        <TextView android:textColor="@color/white" android:layout_width="0dp" android:layout_height="wrap_content" android:text="W" android:layout_weight="1" android:fontFamily="@font/oswald"/>
+                        <TextView android:textColor="@color/white" android:layout_width="0dp" android:layout_height="wrap_content" android:text="ECO" android:layout_weight="2" android:fontFamily="@font/oswald"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/teamABowlerRecyclerView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/aBowlerHead"/>
+            <androidx.cardview.widget.CardView android:id="@+id/teamBBatsmanLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_below="@+id/teamABowlerRecyclerView" app:cardBackgroundColor="@color/text_color">
+                <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Small" android:textColor="@color/white" android:id="@+id/teamBInningsName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:text="India Innings" android:fontFamily="@font/days_one" android:layout_marginStart="8dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+                    <TextView android:textColor="@color/white" android:id="@+id/teamBInningsScore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="188-7 (20 Ov)" android:fontFamily="sans-serif-medium" android:layout_marginEnd="10dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@+id/bBatsmanUpIcon" app:layout_constraintTop_toTopOf="parent"/>
+                    <ImageView android:id="@+id/bBatsmanUpIcon" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:src="@drawable/ic_baseline_keyboard_arrow_up_24" android:layout_marginEnd="10dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@+id/bBatsmanHead" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_below="@+id/teamBBatsmanLayout" app:cardBackgroundColor="@color/teal_700">
+                <LinearLayout android:paddingTop="10sp" android:paddingBottom="10sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="2">
+                    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textSize="15sp" android:textColor="@color/white" android:id="@+id/playerName1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Batsman" android:fontFamily="@font/oswald" android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="match_parent" android:weightSum="6" android:layout_weight="1">
+                        <TextView android:textColor="@color/white" android:id="@+id/playerRuns1" android:layout_width="0dp" android:layout_height="wrap_content" android:text="R" android:layout_weight="1" android:fontFamily="@font/oswald"/>
+                        <TextView android:textColor="@color/white" android:id="@+id/playerBall1" android:layout_width="0dp" android:layout_height="wrap_content" android:text="B" android:layout_weight="1" android:fontFamily="@font/oswald"/>
+                        <TextView android:textColor="@color/white" android:id="@+id/playerFore1" android:layout_width="0dp" android:layout_height="wrap_content" android:text="4s" android:layout_weight="1" android:fontFamily="@font/oswald"/>
+                        <TextView android:textColor="@color/white" android:id="@+id/playerSix1" android:layout_width="0dp" android:layout_height="wrap_content" android:text="6s" android:layout_weight="1" android:fontFamily="@font/oswald"/>
+                        <TextView android:textColor="@color/white" android:id="@+id/playerSR1" android:layout_width="0dp" android:layout_height="wrap_content" android:text="SR" android:layout_weight="2" android:fontFamily="@font/oswald"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/teamBBatsmanRecyclerView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/bBatsmanHead"/>
+            <androidx.cardview.widget.CardView android:id="@+id/bBowlerHead" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_below="@+id/teamBBatsmanRecyclerView" app:cardBackgroundColor="@color/text_color">
+                <LinearLayout android:paddingTop="10sp" android:paddingBottom="10sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="2">
+                    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textSize="15sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Bolwer" android:fontFamily="@font/oswald" android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="match_parent" android:weightSum="6" android:layout_weight="1">
+                        <TextView android:textColor="@color/white" android:layout_width="0dp" android:layout_height="wrap_content" android:text="O" android:layout_weight="1" android:fontFamily="@font/oswald"/>
+                        <TextView android:textColor="@color/white" android:layout_width="0dp" android:layout_height="wrap_content" android:text="M" android:layout_weight="1" android:fontFamily="@font/oswald"/>
+                        <TextView android:textColor="@color/white" android:layout_width="0dp" android:layout_height="wrap_content" android:text="R" android:layout_weight="1" android:fontFamily="@font/oswald"/>
+                        <TextView android:textColor="@color/white" android:layout_width="0dp" android:layout_height="wrap_content" android:text="W" android:layout_weight="1" android:fontFamily="@font/oswald"/>
+                        <TextView android:textColor="@color/white" android:layout_width="0dp" android:layout_height="wrap_content" android:text="ECO" android:layout_weight="2" android:fontFamily="@font/oswald"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/teamBBowlerRecyclerView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/bBowlerHead"/>
+            <androidx.cardview.widget.CardView android:id="@+id/teamA1BatsmanLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_below="@+id/teamBBowlerRecyclerView" app:cardBackgroundColor="@color/text_color">
+                <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Small" android:textColor="@color/white" android:id="@+id/teamA1InningsName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:text="India Innings" android:fontFamily="@font/days_one" android:layout_marginStart="8dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+                    <TextView android:textColor="@color/white" android:id="@+id/teamA1InningsScore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="188-7 (20 Ov)" android:fontFamily="sans-serif-medium" android:layout_marginEnd="10dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@+id/a1BatsmanUpIcon" app:layout_constraintTop_toTopOf="parent"/>
+                    <ImageView android:id="@+id/a1BatsmanUpIcon" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:src="@drawable/ic_baseline_keyboard_arrow_up_24" android:layout_marginEnd="10dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@+id/a1BatsmanHead" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_below="@+id/teamA1BatsmanLayout" app:cardBackgroundColor="@color/teal_700">
+                <LinearLayout android:paddingTop="10sp" android:paddingBottom="10sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="2">
+                    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textSize="15sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Batsman" android:fontFamily="@font/oswald" android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="match_parent" android:weightSum="6" android:layout_weight="1">
+                        <TextView android:textColor="@color/white" android:layout_width="0dp" android:layout_height="wrap_content" android:text="R" android:layout_weight="1" android:fontFamily="@font/oswald"/>
+                        <TextView android:textColor="@color/white" android:layout_width="0dp" android:layout_height="wrap_content" android:text="B" android:layout_weight="1" android:fontFamily="@font/oswald"/>
+                        <TextView android:textColor="@color/white" android:layout_width="0dp" android:layout_height="wrap_content" android:text="4s" android:layout_weight="1" android:fontFamily="@font/oswald"/>
+                        <TextView android:textColor="@color/white" android:layout_width="0dp" android:layout_height="wrap_content" android:text="6s" android:layout_weight="1" android:fontFamily="@font/oswald"/>
+                        <TextView android:textColor="@color/white" android:layout_width="0dp" android:layout_height="wrap_content" android:text="SR" android:layout_weight="2" android:fontFamily="@font/oswald"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/teamA1BatsmanRecyclerView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/a1BatsmanHead"/>
+            <androidx.cardview.widget.CardView android:id="@+id/a1BowlerHead" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_below="@+id/teamA1BatsmanRecyclerView" app:cardBackgroundColor="@color/text_color">
+                <LinearLayout android:paddingTop="10sp" android:paddingBottom="10sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="2">
+                    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textSize="15sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Bolwer" android:fontFamily="@font/oswald" android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="match_parent" android:weightSum="6" android:layout_weight="1">
+                        <TextView android:textColor="@color/white" android:layout_width="0dp" android:layout_height="wrap_content" android:text="O" android:layout_weight="1" android:fontFamily="@font/oswald"/>
+                        <TextView android:textColor="@color/white" android:layout_width="0dp" android:layout_height="wrap_content" android:text="M" android:layout_weight="1" android:fontFamily="@font/oswald"/>
+                        <TextView android:textColor="@color/white" android:layout_width="0dp" android:layout_height="wrap_content" android:text="R" android:layout_weight="1" android:fontFamily="@font/oswald"/>
+                        <TextView android:textColor="@color/white" android:layout_width="0dp" android:layout_height="wrap_content" android:text="W" android:layout_weight="1" android:fontFamily="@font/oswald"/>
+                        <TextView android:textColor="@color/white" android:layout_width="0dp" android:layout_height="wrap_content" android:text="ECO" android:layout_weight="2" android:fontFamily="@font/oswald"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/teamA1BowlerRecyclerView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/a1BowlerHead"/>
+            <androidx.cardview.widget.CardView android:id="@+id/teamB1BatsmanLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_below="@+id/teamA1BowlerRecyclerView" app:cardBackgroundColor="@color/text_color">
+                <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Small" android:textColor="@color/white" android:id="@+id/teamB1InningsName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:text="India Innings" android:fontFamily="@font/days_one" android:layout_marginStart="8dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+                    <TextView android:textColor="@color/white" android:id="@+id/teamB1InningsScore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="188-7 (20 Ov)" android:fontFamily="sans-serif-medium" android:layout_marginEnd="10dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@+id/b1BatsmanUpIcon" app:layout_constraintTop_toTopOf="parent"/>
+                    <ImageView android:id="@+id/b1BatsmanUpIcon" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:src="@drawable/ic_baseline_keyboard_arrow_up_24" android:layout_marginEnd="10dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@+id/b1BatsmanHead" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_below="@+id/teamB1BatsmanLayout" app:cardBackgroundColor="@color/teal_700">
+                <LinearLayout android:paddingTop="10sp" android:paddingBottom="10sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="2">
+                    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textSize="15sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Batsman" android:fontFamily="@font/oswald" android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="match_parent" android:weightSum="6" android:layout_weight="1">
+                        <TextView android:textColor="@color/white" android:layout_width="0dp" android:layout_height="wrap_content" android:text="R" android:layout_weight="1" android:fontFamily="@font/oswald"/>
+                        <TextView android:textColor="@color/white" android:layout_width="0dp" android:layout_height="wrap_content" android:text="B" android:layout_weight="1" android:fontFamily="@font/oswald"/>
+                        <TextView android:textColor="@color/white" android:layout_width="0dp" android:layout_height="wrap_content" android:text="4s" android:layout_weight="1" android:fontFamily="@font/oswald"/>
+                        <TextView android:textColor="@color/white" android:layout_width="0dp" android:layout_height="wrap_content" android:text="6s" android:layout_weight="1" android:fontFamily="@font/oswald"/>
+                        <TextView android:textColor="@color/white" android:layout_width="0dp" android:layout_height="wrap_content" android:text="SR" android:layout_weight="2" android:fontFamily="@font/oswald"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/teamB1BatsmanRecyclerView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/b1BatsmanHead"/>
+            <androidx.cardview.widget.CardView android:id="@+id/b1BowlerHead" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_below="@+id/teamB1BatsmanRecyclerView" app:cardBackgroundColor="@color/text_color">
+                <LinearLayout android:paddingTop="10sp" android:paddingBottom="10sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="2">
+                    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textSize="15sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Bolwer" android:fontFamily="@font/oswald" android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="match_parent" android:weightSum="6" android:layout_weight="1">
+                        <TextView android:textColor="@color/white" android:layout_width="0dp" android:layout_height="wrap_content" android:text="O" android:layout_weight="1" android:fontFamily="@font/oswald"/>
+                        <TextView android:textColor="@color/white" android:layout_width="0dp" android:layout_height="wrap_content" android:text="M" android:layout_weight="1" android:fontFamily="@font/oswald"/>
+                        <TextView android:textColor="@color/white" android:layout_width="0dp" android:layout_height="wrap_content" android:text="R" android:layout_weight="1" android:fontFamily="@font/oswald"/>
+                        <TextView android:textColor="@color/white" android:layout_width="0dp" android:layout_height="wrap_content" android:text="W" android:layout_weight="1" android:fontFamily="@font/oswald"/>
+                        <TextView android:textColor="@color/white" android:layout_width="0dp" android:layout_height="wrap_content" android:text="ECO" android:layout_weight="2" android:fontFamily="@font/oswald"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/teamB1BowlerRecyclerView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/b1BowlerHead"/>
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+    <ProgressBar android:id="@+id/progressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:attr/progressBarStyle"/>
+</RelativeLayout>

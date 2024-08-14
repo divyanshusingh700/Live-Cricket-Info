@@ -1,0 +1,966 @@
+[
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_row_home.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/row_home.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_cricket_series_teams.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_cricket_series_teams.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_share.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/share.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_india.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/india.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_t20_bowling.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_t20_bowling.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_t20_all_rounder.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_t20_all_rounder.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_champions_bottom_nav.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_champions_bottom_nav.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_al_amin_hossain.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/al_amin_hossain.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_question.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/question.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_ic_baseline_star_24.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/ic_baseline_star_24.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_asghar_afghan.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/asghar_afghan.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_row_records.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/row_records.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_asia_cup_team.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_asia_cup_team.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_sabbir_rahman.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/sabbir_rahman.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/xml_backup_rules.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_afghanistan.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/afghanistan.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_activity_asia_cup_team_details_screen.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/activity_asia_cup_team_details_screen.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_player_personal_information.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_player_personal_information.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_match_info.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_match_info.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_adnan_ilyas.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/adnan_ilyas.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_activity_ranking_screen.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/activity_ranking_screen.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_highest_avareage.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/highest_avareage.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/font_doppio_one.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/font/doppio_one.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_row_ranking_player.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/row_ranking_player.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_lasith_malinga.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/lasith_malinga.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_ic_disconnected.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/ic_disconnected.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_textview_shape.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/textview_shape.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_round_button.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/round_button.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/font_coiny.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/font/coiny.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_nambia.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/nambia.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_ic_airplane.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/ic_airplane.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_fragment_o_d_i_tab_ranking.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_fragment_o_d_i_tab_ranking.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_italy.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/italy.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_stadium.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/stadium.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_ic_baseline_keyboard_arrow_down_24.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/ic_baseline_keyboard_arrow_down_24.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_ic_menu_slideshow.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_o_d_i_bowling.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_o_d_i_bowling.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_ic_keyboard_black_24dp.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/ic_keyboard_black_24dp.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_activity_main_players_screen.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/activity_main_players_screen.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_canada.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/canada.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_kuwait.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/kuwait.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_mohammad_shahzad.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/mohammad_shahzad.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_upcoming_schedule.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_upcoming_schedule.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_sarfaraz_ahmed.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/sarfaraz_ahmed.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_row_team.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/row_team.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_pakistan.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/pakistan.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_south_africa.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/south_africa.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_ic_baseline_trending_up_24.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/ic_baseline_trending_up_24.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_ic_baseline_keyboard_arrow_up_24.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/ic_baseline_keyboard_arrow_up_24.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_ic_clock_back_24dp.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/ic_clock_back_24dp.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_scotland.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/scotland.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_mahmudullah.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/mahmudullah.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_schedules.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/schedules.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_united_arab_emirates.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/united_arab_emirates.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_singapore.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/singapore.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_bermuda.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/bermuda.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_activity_upcoming_schedule_details_screen.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/activity_upcoming_schedule_details_screen.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_ic_menu_gallery.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/ic_menu_gallery.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_united_states.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/united_states.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_activity_players_screen.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/activity_players_screen.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_ireland.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/ireland.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_activity_schedule_screen.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/activity_schedule_screen.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_row_series_team.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/row_series_team.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_row_schedule_player.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/row_schedule_player.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_fragment_test_ranking.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_fragment_test_ranking.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_cricket_series_schedule.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_cricket_series_schedule.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_england.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/england.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_ic_baseline_emoji_events_24.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/ic_baseline_emoji_events_24.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_nothing.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/nothing.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_o_d_i_team.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_o_d_i_team.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_activity_live_schedule_details_screen.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/activity_live_schedule_details_screen.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_belgium.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/belgium.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_oman.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/oman.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_teams_results.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_teams_results.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_series_main.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_series_main.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_jersey.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/jersey.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_shoaib_malik.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/shoaib_malik.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_row_series_home.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/row_series_home.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_test_bowling.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_test_bowling.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_virat_kohli.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/virat_kohli.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_eng.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/eng.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_denmark.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/denmark.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_t20_batting.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_t20_batting.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_rohan_mustafa.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/rohan_mustafa.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_activity_stadium_screen.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/activity_stadium_screen.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_ashish_nehra.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/ashish_nehra.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_malaysia.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/malaysia.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_ranking_bottom_nav.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_ranking_bottom_nav.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_domestic_team.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_domestic_team.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_live_score.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_live_score.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_ic_wifi.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/ic_wifi.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/mipmap-anydpi-v33/ic_launcher.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_fiji.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/fiji.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_mahmudulaa.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/mahmudulaa.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_ic_baseline_area_chart_24.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/ic_baseline_area_chart_24.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_content_main.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/content_main.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_nz.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/nz.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_tillakaratne_dilshan.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/tillakaratne_dilshan.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_mashrafe_mortaza.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/mashrafe_mortaza.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_kinchit_shah.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/kinchit_shah.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_hardik_pandya.jpg.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/hardik_pandya.jpg"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/anim_item_animation_fall_down.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/anim/item_animation_fall_down.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_namibia.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/namibia.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_team_bottom_nav.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_team_bottom_nav.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/font_days_one.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/font/days_one.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_ic_baseline_group_24.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/ic_baseline_group_24.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_activity_main.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/anim_layout_animation.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/anim/layout_animation.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_jasprit_bumrah.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/jasprit_bumrah.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_amjad_javed.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/amjad_javed.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_karim_sadiq.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/karim_sadiq.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_sultan_ahmed.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/sultan_ahmed.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/navigation_mobile_navigation.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_highest_totals.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/highest_totals.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_high_score.jpg.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/high_score.jpg"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_rohit_sharma.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/rohit_sharma.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_row_point_table.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/row_point_table.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_zimbabwe.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/zimbabwe.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_activity_teams_details_screen.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/activity_teams_details_screen.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_home.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/home.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_row_player_of_match.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/row_player_of_match.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_srilanka.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/srilanka.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_mohammad_nabi.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/mohammad_nabi.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_nepal.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/nepal.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_iran.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/iran.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_sri_lanka.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/sri_lanka.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_test_batting.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_test_batting.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_papua_new_guinea.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/papua_new_guinea.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/font_oswald.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/font/oswald.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_umar_akmal.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/umar_akmal.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_shikhar_dhawan.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/shikhar_dhawan.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_teams_schedule.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_teams_schedule.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_yuvraj_singh.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/yuvraj_singh.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_australia.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/australia.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_regular_team.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_regular_team.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_zim.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/zim.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_points_able.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/points_able.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/xml_data_extraction_rules.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_test_all_rounder.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_test_all_rounder.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_activity_cricket_series_details.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/activity_cricket_series_details.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_ic_airplanemode_inactive.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/ic_airplanemode_inactive.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_netherlands.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/netherlands.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_babar_hayat.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/babar_hayat.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_profile.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/profile.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_activity_schedule_details_screen.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/activity_schedule_details_screen.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_row_career_stats.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/row_career_stats.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_ic_home_black_24dp.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_row_ranking.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/row_ranking.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_schedule_bottom_nav.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_schedule_bottom_nav.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_hundred.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/hundred.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_result_schedule.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_result_schedule.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_germany.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/germany.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_six.jpg.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/six.jpg"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_player_career_summary.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_player_career_summary.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_row_schedule.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/row_schedule.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_wicket.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/wicket.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_app_bar_main.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/app_bar_main.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_najibullah_zadran.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/najibullah_zadran.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_sa.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/sa.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_row_batsman_scorecard.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/row_batsman_scorecard.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_row_recent_schedule.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/row_recent_schedule.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_activity_cricket_series_player.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/activity_cricket_series_player.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_ban.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/ban.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_stadium_bottom_nav.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_stadium_bottom_nav.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_ajinkya_rahane.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/ajinkya_rahane.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_hong_kong.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/hong_kong.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_mohammad_amir.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/mohammad_amir.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_playing_squad.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_playing_squad.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_asia_cup.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_asia_cup.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_row_champions.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/row_champions.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_aamir_kaleem.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/aamir_kaleem.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_uae.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/uae.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_rashid_khan.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/rashid_khan.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/menu_activity_main_drawer.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/menu/activity_main_drawer.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_activity_team_screen.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/activity_team_screen.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_record_bottom_nav.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_record_bottom_nav.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_most_runs.jpg.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/most_runs.jpg"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_o_d_i_allrounder.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_o_d_i_allrounder.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_t20_tab_ranking.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_t20_tab_ranking.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_point_table.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_point_table.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_ic_baseline_share_24.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/ic_baseline_share_24.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_textview_leftradius.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/textview_leftradius.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_live_schedule.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_live_schedule.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_row_record_details.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/row_record_details.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_v_back.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/v_back.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_test_team_ranking.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_test_team_ranking.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_nav_header_main.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/nav_header_main.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_ic_menu_camera.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/ic_menu_camera.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_teams_squad.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_teams_squad.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_t20_team.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_t20_team.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_ic_no_wifi_2.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/ic_no_wifi_2.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_west_indies.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/west_indies.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_row_bowler_scorecard.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/row_bowler_scorecard.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_o_d_i_batting.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_o_d_i_batting.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_activity_cricket_series_details_tournament.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/activity_cricket_series_details_tournament.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_ic_baseline_access_time_24.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/ic_baseline_access_time_24.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_activity_records_details_screen.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/activity_records_details_screen.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_botswana.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/botswana.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_activity_bottom_navigation_screen.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/activity_bottom_navigation_screen.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_ire.jpg.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/ire.jpg"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_activity_records_screen.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/activity_records_screen.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_kenya.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/kenya.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_activity_in_app_purchases.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/activity_in_app_purchases.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_duck.jpg.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/duck.jpg"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_dawlat_zadran.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/dawlat_zadran.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_scorecard.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_scorecard.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_row_stadium.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/row_stadium.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_ic_no_wifi_1.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/ic_no_wifi_1.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_mehran_khan.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/mehran_khan.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_uganda.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/uganda.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_sri_flag.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/sri_flag.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_ball.jpg.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/ball.jpg"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_vanuatu.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/vanuatu.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_bangladesh.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/bangladesh.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_new_zealand.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/new_zealand.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_ic_baseline_history_24.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/ic_baseline_history_24.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_fragment_asiacup_player.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/fragment_asiacup_player.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_ic_baseline_schedule_24.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/ic_baseline_schedule_24.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/menu_main.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/menu/main.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_ind.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/ind.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-pngs-54:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_activity_browser_screen.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/activity_browser_screen.xml"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_wi.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/wi.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/drawable_aus.png.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/drawable/aus.png"
+    },
+    {
+        "merged": "com.truecodes.worldcuptv.app-merged_res-59:/layout_activity_champions_screen.xml.flat",
+        "source": "com.truecodes.worldcuptv.app-main-61:/layout/activity_champions_screen.xml"
+    }
+]

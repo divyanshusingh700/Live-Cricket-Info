@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/fav_text_color"
+        android:gravity="center"
+        android:id="@+id/notFoundTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Ranking not found"
+        android:fontFamily="@font/days_one"/>
+</RelativeLayout>

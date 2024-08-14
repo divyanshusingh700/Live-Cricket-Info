@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_baseline_schedule_24" android:id="@+id/navigation_home" android:title="Schedule"/>
+    <item android:icon="@drawable/ic_baseline_group_24" android:id="@+id/navigation_team" android:title="Teams"/>
+    <item android:icon="@drawable/ic_baseline_emoji_events_24" android:id="@+id/navigation_champions" android:title="Series"/>
+    <item android:icon="@drawable/ic_baseline_history_24" android:id="@+id/navigation_records" android:title="Records"/>
+    <item android:icon="@drawable/ic_baseline_trending_up_24" android:id="@+id/navigation_ranking" android:title="Rankings"/>
+</menu>

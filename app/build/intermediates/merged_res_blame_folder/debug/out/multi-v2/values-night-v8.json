@@ -1,0 +1,98 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.truecodes.worldcuptv.app-mergeDebugResources-57:/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\9db7edcbd692ff772a9e7b9f6315fa89\\transformed\\oopsnointernet-2.0.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,25",
+                        "startColumns": "4,4",
+                        "startOffsets": "100,1260",
+                        "endLines": "24,54",
+                        "endColumns": "12,12",
+                        "endOffsets": "1255,2874"
+                    },
+                    "to": {
+                        "startLines": "2,25",
+                        "startColumns": "4,4",
+                        "startOffsets": "100,1244",
+                        "endLines": "24,54",
+                        "endColumns": "12,12",
+                        "endOffsets": "1239,2842"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\901bd1e79ca3a5e2188025eed5ecc80d\\transformed\\appcompat-1.6.1\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
+                    },
+                    "to": {
+                        "startLines": "55,56,57,58,59,60,61,107",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "2847,2917,3001,3085,3181,3283,3385,7449",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "2912,2996,3080,3176,3278,3380,3474,7533"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\bdadacb9189931bd7a35fd493e694d0b\\transformed\\neumorphism-0.3.2\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,123,205,287,383,483,575",
+                        "endColumns": "67,81,81,95,99,91,105",
+                        "endOffsets": "118,200,282,378,478,570,676"
+                    },
+                    "to": {
+                        "startLines": "87,88,89,90,91,92,93",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "6240,6308,6390,6472,6568,6668,6760",
+                        "endColumns": "67,81,81,95,99,91,105",
+                        "endOffsets": "6303,6385,6467,6563,6663,6755,6861"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\b00556b07ea0540803935014cb776451\\transformed\\material-1.9.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,130,241,330,431,538,645,744,851,954,1042,1166,1268,1370,1486,1588,1702,1830,1946,2068,2204,2324,2458,2578,2690,2816,2933,3057,3187,3309,3447,3581,3697",
+                        "endColumns": "74,110,88,100,106,106,98,106,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
+                        "endOffsets": "125,236,325,426,533,640,739,846,949,1037,1161,1263,1365,1481,1583,1697,1825,1941,2063,2199,2319,2453,2573,2685,2811,2928,3052,3182,3304,3442,3576,3692,3812"
+                    },
+                    "to": {
+                        "startLines": "62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,108,109,110,111,112,113,114,115",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3479,3554,3665,3754,3855,3962,4069,4168,4275,4378,4466,4590,4692,4794,4910,5012,5126,5254,5370,5492,5628,5748,5882,6002,6114,7538,7655,7779,7909,8031,8169,8303,8419",
+                        "endColumns": "74,110,88,100,106,106,98,106,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
+                        "endOffsets": "3549,3660,3749,3850,3957,4064,4163,4270,4373,4461,4585,4687,4789,4905,5007,5121,5249,5365,5487,5623,5743,5877,5997,6109,6235,7650,7774,7904,8026,8164,8298,8414,8534"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Admin\\AndroidStudioProjects\\WorldCupTv\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "799"
+                    },
+                    "to": {
+                        "startLines": "94",
+                        "startColumns": "4",
+                        "startOffsets": "6866",
+                        "endLines": "106",
+                        "endColumns": "12",
+                        "endOffsets": "7444"
+                    }
+                }
+            ]
+        }
+    ]
+}

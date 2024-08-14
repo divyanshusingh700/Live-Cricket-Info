@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soup.neumorphism.NeumorphCardView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/background_color" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:background="@color/background_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="5">
+        <TextView android:textStyle="bold" android:gravity="center_vertical" android:id="@+id/teamName" android:paddingLeft="10sp" android:layout_width="0dp" android:layout_height="match_parent" android:text="United Arab Emirates" android:layout_weight="1.5" android:fontFamily="@font/oswald" android:layout_marginStart="5dp"/>
+        <LinearLayout android:paddingTop="15dp" android:paddingBottom="15dp" android:layout_width="0dp" android:layout_height="wrap_content" android:weightSum="7" android:layout_weight="3.5">
+            <TextView android:gravity="center" android:id="@+id/match" android:visibility="visible" android:layout_width="0dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+            <TextView android:gravity="center" android:id="@+id/win" android:layout_width="0dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+            <TextView android:gravity="center" android:id="@+id/lose" android:layout_width="0dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+            <TextView android:gravity="center" android:id="@+id/tied" android:layout_width="0dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+            <TextView android:gravity="center" android:id="@+id/points" android:layout_width="0dp" android:layout_height="wrap_content" android:text="1" android:layout_weight="1"/>
+            <TextView android:gravity="center" android:id="@+id/nrr" android:layout_width="0dp" android:layout_height="wrap_content" android:text="2" android:layout_weight="2"/>
+        </LinearLayout>
+    </LinearLayout>
+</soup.neumorphism.NeumorphCardView>
