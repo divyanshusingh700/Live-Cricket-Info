@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:id="@+id/asiaCup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/days_one"
+                android:gravity="center"
+                android:text="Asia Cup point Table"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/text_color"
+                />
+
+            <TextView
+                android:id="@+id/groupA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/asiaCup"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/days_one"
+                android:gravity="center"
+                android:text="Super Four"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/text_color"
+                />
+
+            <LinearLayout
+                android:id="@+id/pointTableHead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/groupA"
+                android:orientation="horizontal"
+                android:weightSum="5"
+                >
+
+                <TextView
+                    android:id="@+id/teamName"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1.5"
+                    android:fontFamily="@font/oswald"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="20sp"
+                    android:text="Teams"
+                    android:textStyle="bold"
+                    />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3.5"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:weightSum="7"
+                    >
+
+                    <TextView
+                        android:id="@+id/match"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/oswald"
+                        android:gravity="center"
+                        android:text="M"
+                        android:visibility="visible"
+                        />
+
+                    <TextView
+                        android:id="@+id/win"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/oswald"
+                        android:gravity="center"
+                        android:text="W"
+                        />
+
+                    <TextView
+                        android:id="@+id/lose"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/oswald"
+                        android:gravity="center"
+                        android:text="L"
+                        />
+
+                    <TextView
+                        android:id="@+id/tied"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/oswald"
+                        android:gravity="center"
+                        android:text="D"
+                        />
+
+                    <TextView
+                        android:id="@+id/points"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/oswald"
+                        android:gravity="center"
+                        android:text="P"
+                        />
+
+                    <TextView
+                        android:id="@+id/nrr"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:fontFamily="@font/oswald"
+                        android:gravity="center"
+                        android:text="+/-"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pointTableHead"
+                android:layout_marginTop="2dp"
+                android:visibility="visible"
+                />
+
+            <TextView
+                android:id="@+id/groupB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/recyclerView"
+                android:fontFamily="@font/days_one"
+                android:gravity="center"
+                android:text="Group-B"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/text_color"
+                android:visibility="gone"
+                />
+
+            <LinearLayout
+                android:id="@+id/pointTableHeadB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/groupB"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="5"
+                >
+
+                <TextView
+                    android:id="@+id/teamNameB"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1.5"
+                    android:fontFamily="@font/oswald"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="20sp"
+                    android:text="Teams"
+                    android:textStyle="bold"
+                    />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3.5"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:weightSum="7"
+                    >
+
+                    <TextView
+                        android:id="@+id/matchB"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/oswald"
+                        android:gravity="center"
+                        android:text="M"
+                        android:visibility="gone"
+                        />
+
+                    <TextView
+                        android:id="@+id/winB"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/oswald"
+                        android:gravity="center"
+                        android:text="W"
+                        />
+
+                    <TextView
+                        android:id="@+id/loseB"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/oswald"
+                        android:gravity="center"
+                        android:text="L"
+                        />
+
+                    <TextView
+                        android:id="@+id/tiedB"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/oswald"
+                        android:gravity="center"
+                        android:text="D"
+                        />
+
+                    <TextView
+                        android:id="@+id/pointsB"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/oswald"
+                        android:gravity="center"
+                        android:text="P"
+                        />
+
+                    <TextView
+                        android:id="@+id/nrrB"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:fontFamily="@font/oswald"
+                        android:gravity="center"
+                        android:text="+/-"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pointTableHeadB"
+                android:layout_marginTop="2dp"
+                android:visibility="gone"
+                />
+        </RelativeLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:id="@+id/error"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/oswald"
+        android:gravity="center"
+        android:text="Points table is not available at the moment"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/purple_700"
+        android:visibility="gone"
+        />
+</RelativeLayout>

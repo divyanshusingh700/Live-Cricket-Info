@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="asia_cup_item_list">
+        <item>Schedule</item>
+        <item>Teams</item>
+        <item>Champions</item>
+        <item>Stadium</item>
+        <item>Records</item>
+        <item>Ranking</item>
+        <item>Live Score</item>
+        <item>Point Tables</item>
+    </array>
+    <array name="asia_cup_team_list">
+        <item>Afghanistan</item>
+        <item>Bangladesh</item>
+        <item>Hong Kong</item>
+        <item>India</item>
+        <item>Pakistan</item>
+        <item>Sri Lanka</item>
+    </array>
+    <array name="asia_cup_team_squad">
+        <item>https://m.cricbuzz.com/cricket-series/4499</item>
+        <item>https://m.cricbuzz.com/cricket-series/4499</item>
+        <item>https://m.cricbuzz.com/cricket-series/4499</item>
+        <item>https://m.cricbuzz.com/cricket-series/4499/asia-cup-2022/squads/20583</item>
+        <item>https://m.cricbuzz.com/cricket-series/4499/asia-cup-2022/squads/20590</item>
+        <item>https://m.cricbuzz.com/cricket-series/4499</item>
+    </array>
+    <array name="asia_cup_team_url">
+        <item>https://www.cricbuzz.com/cricket-team/afghanistan/96</item>
+        <item>https://www.cricbuzz.com/cricket-team/bangladesh/6</item>
+        <item>https://www.cricbuzz.com/cricket-team/hong-kong/8</item>
+        <item>https://www.cricbuzz.com/cricket-team/india/2</item>
+        <item>https://www.cricbuzz.com/cricket-team/pakistan/3</item>
+        <item>https://www.cricbuzz.com/cricket-team/sri-lanka/5</item>
+    </array>
+    <array name="bowlingFiguresRunRate">
+        <item>Econ: 4.25</item>
+        <item>Econ: 6.50</item>
+        <item>Econ: 9.00</item>
+        <item>Econ: 2.28</item>
+        <item>Econ: 2.50</item>
+        <item>Econ: 3.50</item>
+        <item>Econ: 4.50</item>
+        <item>Econ: 4.50</item>
+        <item>Econ: 6.70</item>
+        <item>Econ: 5.75</item>
+    </array>
+    <array name="bowlingFiguresScore">
+        <item>Best: 4/17</item>
+        <item>Best: 4/26</item>
+        <item>Best: 4/36</item>
+        <item>Best: 3/8</item>
+        <item>Best: 3/10</item>
+        <item>Best: 3/14</item>
+        <item>Best: 3/18</item>
+        <item>Best: 3/18</item>
+        <item>Best: 3/23</item>
+        <item>Best: 3/27</item>
+    </array>
+    <array name="bowlingFiguresTeamName">
+        <item>Mohammad Nabi</item>
+        <item>SL Malinga</item>
+        <item>Aamir Kaleem</item>
+        <item>HH Pandya</item>
+        <item>KMDN Kulasekara</item>
+        <item>Mohammad Naveed</item>
+        <item>Mehran Khan</item>
+        <item>Mohammad Amir</item>
+        <item>Rohan Mustafa</item>
+        <item>A Nehra</item>
+    </array>
+    <array name="championsArrayList">
+        <item>(1984, 1988, 1990–91, 1995,\n 2010, 2018)</item>
+        <item>(1986, 1997, 2004, 2008, 2014)</item>
+        <item>(2000, 2012)</item>
+        <item>(0)</item>
+    </array>
+    <array name="championsTeamName">
+        <item>India</item>
+        <item>Sri Lanka</item>
+        <item>Pakistan</item>
+        <item>Bangladesh</item>
+    </array>
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <array name="com_google_android_gms_fonts_certs_dev">
+        <item>MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=</item>
+    </array>
+    <array name="com_google_android_gms_fonts_certs_prod">
+        <item>MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK</item>
+    </array>
+    <array name="highScoresRunRate">
+        <item>SR: 203.33</item>
+        <item>SR: 150.90</item>
+        <item>SR: 148.14</item>
+        <item>SR: 154.00</item>
+        <item>SR: 133.92</item>
+        <item>SR: 150.00</item>
+        <item>SR: 128.57</item>
+        <item>SR: 143.18</item>
+        <item>SR: 171.42</item>
+        <item>SR: 136.36</item>
+    </array>
+    <array name="highScoresScore">
+        <item>Runs: 122</item>
+        <item>Runs: 83</item>
+        <item>Runs: 80</item>
+        <item>Runs: 77</item>
+        <item>Runs: 75*</item>
+        <item>Runs: 72</item>
+        <item>Runs: 63*</item>
+        <item>Runs: 63</item>
+        <item>Runs: 60*</item>
+        <item>Runs: 60</item>
+    </array>
+    <array name="highScoresTeamName">
+        <item>Babar Hayat</item>
+        <item>RG Sharma</item>
+        <item>Sabbir Rahman</item>
+        <item>Rohan Mustafa</item>
+        <item>TM Dilshan</item>
+        <item>Karim Sadiq</item>
+        <item>Shoaib Malik</item>
+        <item>Noor Ali Zadran</item>
+        <item>Najibullah Zadran</item>
+        <item>S Dhawan</item>
+    </array>
+    <array name="highestAveragesRunRate">
+        <item>SR: 165.75</item>
+        <item>SR: 110.86</item>
+        <item>SR: 160.33</item>
+        <item>SR: 130.10</item>
+        <item>SR: 112.03</item>
+        <item>SR: 148.57</item>
+        <item>SR: 133.33</item>
+        <item>SR: 111.25</item>
+        <item>SR: 123.94</item>
+        <item>SR: 121.10</item>
+    </array>
+    <array name="highestAveragesScore">
+        <item>AVG: 121.00</item>
+        <item>AVG: 76.50</item>
+        <item>AVG: 64.66</item>
+        <item>AVG: 60.50</item>
+        <item>AVG: 60.50</item>
+        <item>AVG: 52.00</item>
+        <item>AVG: 48.00</item>
+        <item>AVG: 44.50</item>
+        <item>AVG: 44.00</item>
+        <item>AVG: 44.00</item>
+    </array>
+    <array name="highestAveragesTeamName">
+        <item>Mahmudullah</item>
+        <item>V Kohli</item>
+        <item>Babar Hayat</item>
+        <item>Sarfaraz Ahmed</item>
+        <item>Shoaib Malik</item>
+        <item>Najibullah Zadran</item>
+        <item>Mehran Khan</item>
+        <item>Yuvraj Singh</item>
+        <item>Sabbir Rahman</item>
+        <item>TM Dilshan</item>
+    </array>
+    <array name="highestTotalRunRate">
+        <item>Run Rate: 9</item>
+        <item>Run Rate: 8.9</item>
+        <item>Run Rate: 8.8</item>
+        <item>Run Rate: 8.75</item>
+        <item>Run Rate: 8.6</item>
+        <item>Run Rate: 8.61</item>
+        <item>Run Rate: 8.3</item>
+        <item>Run Rate: 8.25</item>
+        <item>Run Rate: 8.06</item>
+        <item>Run Rate: 7.81</item>
+    </array>
+    <array name="highestTotalScore">
+        <item>Score: 180/5</item>
+        <item>Score: 178/7</item>
+        <item>Score: 176/4</item>
+        <item>Score: 175/7</item>
+        <item>Score: 172/6</item>
+        <item>Score: 168/7</item>
+        <item>Score: 166/6</item>
+        <item>Score: 165/4</item>
+        <item>Score: 160/10</item>
+        <item>Score: 151/4</item>
+    </array>
+    <array name="highestTotalTeamName">
+        <item>Oman</item>
+        <item>Afghanistan</item>
+        <item>U.A.E.</item>
+        <item>Hong Kong</item>
+        <item>U.A.E.</item>
+        <item>Afghanistan</item>
+        <item>India</item>
+        <item>Oman</item>
+        <item>Afghanistan</item>
+        <item>Pakistan</item>
+    </array>
+    <array name="mostDuckRunRate">
+        <item>Ave: 3.50</item>
+        <item>Ave: 9.66</item>
+        <item>Ave: 0.00</item>
+        <item>Ave: 0.00</item>
+        <item>Ave: 0.00</item>
+    </array>
+    <array name="mostDuckScore">
+        <item>Duck: 3</item>
+        <item>Duck: 2</item>
+        <item>Duck: 1</item>
+        <item>Duck: 1</item>
+        <item>Duck: 1</item>
+    </array>
+    <array name="mostDuckTeamName">
+        <item>Mashrafe Mortaza</item>
+        <item>KD Shah</item>
+        <item>AM Rahane</item>
+        <item>Shapoor Zadran</item>
+        <item>Sultan Ahmed</item>
+    </array>
+    <array name="mostRunsRunRate">
+        <item>SR: 160.33</item>
+        <item>SR: 123.94</item>
+        <item>SR: 118.12</item>
+        <item>SR: 110.86</item>
+        <item>SR: 104.86</item>
+        <item>SR: 109.55</item>
+        <item>SR: 132.69</item>
+        <item>SR: 121.10</item>
+        <item>SR: 120.56</item>
+        <item>SR: 114.01</item>
+    </array>
+    <array name="mostRunsScore">
+        <item>Runs: 194</item>
+        <item>Runs: 176</item>
+        <item>Runs: 176</item>
+        <item>Runs: 153</item>
+        <item>Runs: 151</item>
+        <item>Runs: 149</item>
+        <item>Runs: 138</item>
+        <item>Runs: 132</item>
+        <item>Runs: 129</item>
+        <item>Runs: 122</item>
+    </array>
+    <array name="mostRunsTeamName">
+        <item>Babar Hayat</item>
+        <item>Sabbir Rahman</item>
+        <item>Muhammad Usman</item>
+        <item>Virat Kohli</item>
+        <item>Shaiman Anwar</item>
+        <item>LD Chandimal</item>
+        <item>RG Sharma</item>
+        <item>TM Dilshan</item>
+        <item>Mohammad Shahzad</item>
+        <item>Rohan Mustafa</item>
+    </array>
+    <array name="mostSixRunRate">
+        <item>Fore: 9</item>
+        <item>Fore: 7</item>
+        <item>Fore: 3</item>
+        <item>Fore: 3</item>
+        <item>Fore: 0</item>
+        <item>Fore: 4</item>
+        <item>Fore: 7</item>
+        <item>Fore: 10</item>
+        <item>Fore: 2</item>
+        <item>Fore: 7</item>
+    </array>
+    <array name="mostSixScore">
+        <item>Six: 7</item>
+        <item>Six: 4</item>
+        <item>Six: 4</item>
+        <item>Six: 4</item>
+        <item>Six: 3</item>
+        <item>Six: 3</item>
+        <item>Six: 3</item>
+        <item>Six: 3</item>
+        <item>Six: 3</item>
+        <item>Six: 3</item>
+    </array>
+    <array name="mostSixTeamName">
+        <item>Babar Hayat</item>
+        <item>Mahmudullah</item>
+        <item>Rohan Mustafa</item>
+        <item>Adnan Ilyas</item>
+        <item>Najibullah Zadran</item>
+        <item>Umar Akmal</item>
+        <item>Sabbir Rahman</item>
+        <item>Muhammad Usman</item>
+        <item>Asghar Stanikzai</item>
+        <item>Dawlat Zadran</item>
+        <item>Zeeshan Maqsood</item>
+    </array>
+    <array name="mostWicketRunRate">
+        <item>Best: 3/25</item>
+        <item>Best: 3/25</item>
+        <item>Best: 3/14</item>
+        <item>Best: 3/18</item>
+        <item>Best: 3/10</item>
+        <item>Best: 3/8</item>
+        <item>Best: 2/27</item>
+        <item>Best: 3/23</item>
+        <item>Best: 3/19</item>
+        <item>Best: 3/25</item>
+    </array>
+    <array name="mostWicketScore">
+        <item>Wicket: 12</item>
+        <item>Wicket: 11</item>
+        <item>Wicket: 11</item>
+        <item>Wicket: 7</item>
+        <item>Wicket: 7</item>
+        <item>Wicket: 7</item>
+        <item>Wicket: 6</item>
+        <item>Wicket: 6</item>
+        <item>Wicket: 6</item>
+        <item>Wicket: 5</item>
+    </array>
+    <array name="mostWicketTeamName">
+        <item>Amjad Javed</item>
+        <item>Al-Amin Hossain</item>
+        <item>Mohammad Naveed</item>
+        <item>Mohammad Amir</item>
+        <item>KMDN Kulasekara</item>
+        <item>HH Pandya</item>
+        <item>JJ Bumrah</item>
+        <item>A Nehra</item>
+        <item>Rohan Mustafa</item>
+        <item>Rashid Khan</item>
+    </array>
+    <array name="preloaded_fonts">
+        <item>@font/coiny</item>
+        <item>@font/days_one</item>
+        <item>@font/doppio_one</item>
+        <item>@font/oswald</item>
+    </array>
+    <array name="recordsArrayList">
+        <item>Highest totals</item>
+        <item>Most runs</item>
+        <item>High scores</item>
+        <item>Highest averages</item>
+        <item>Most ducks</item>
+        <item>Most sixes</item>
+        <item>Most wickets</item>
+        <item>bowling figures</item>
+    </array>
+    <array name="regular_team_name">
+        <item>Afghanistan</item>
+        <item>Australia</item>
+        <item>Bangladesh</item>
+        <item>India</item>
+        <item>England</item>
+        <item>New Zealand</item>
+        <item>Pakistan</item>
+        <item>South Africa</item>
+        <item>Sri Lanka</item>
+        <item>West Indies</item>
+        <item>Zimbabwe</item>
+        <item>Ireland</item>
+        <item>Kenya</item>
+        <item>Scotland</item>
+    </array>
+    <array name="regular_team_url">
+        <item>https://www.cricbuzz.com/cricket-team/afghanistan/96</item>
+        <item>https://www.cricbuzz.com/cricket-team/australia/4</item>
+        <item>https://www.cricbuzz.com/cricket-team/bangladesh/6</item>
+        <item>https://www.cricbuzz.com/cricket-team/india/2</item>
+        <item>https://www.cricbuzz.com/cricket-team/england/9</item>
+        <item>https://www.cricbuzz.com/cricket-team/new-zealand/13</item>
+        <item>https://www.cricbuzz.com/cricket-team/pakistan/3</item>
+        <item>https://www.cricbuzz.com/cricket-team/south-africa/11</item>
+        <item>https://www.cricbuzz.com/cricket-team/sri-lanka/5</item>
+        <item>https://www.cricbuzz.com/cricket-team/west-indies/10</item>
+        <item>https://www.cricbuzz.com/cricket-team/zimbabwe/12</item>
+        <item>https://www.cricbuzz.com/cricket-team/ireland/27</item>
+        <item>https://www.cricbuzz.com/cricket-team/kenya/14</item>
+        <item>https://www.cricbuzz.com/cricket-team/scotland/23</item>
+    </array>
+    <array name="runnersUpArrayList">
+        <item>(1997, 2004, 2008)</item>
+        <item>(1984, 1988, 1990, 1995, 2000, 2010)</item>
+        <item>(1986, 2014)</item>
+        <item>(2012, 2018)</item>
+    </array>
+    <array name="scheduleDate">
+        <item>27 August, 02:00: PM</item>
+        <item>28 August, 02:00: PM</item>
+        <item>29 August, 02:00: PM</item>
+        <item>30 August, 02:00: PM</item>
+        <item>31 August, 02:00: PM</item>
+        <item>01 September, 02:00: PM</item>
+        <item>02 September, 02:00: PM</item>
+        <item>03 September, 02:00: PM</item>
+        <item>04 September, 02:00: PM</item>
+        <item>05 September, 02:00: PM</item>
+    </array>
+    <array name="scheduleMatchNo">
+        <item>1st Match</item>
+        <item>2nd Match</item>
+        <item>3rd Match</item>
+        <item>4th Match</item>
+        <item>5th Match</item>
+        <item>6th Match</item>
+        <item>7th Match</item>
+        <item>8th Match</item>
+        <item>9th Match</item>
+        <item>10th Match</item>
+    </array>
+    <array name="scheduleOneTeam">
+        <item>Bangladesh</item>
+        <item>Hong Kong</item>
+        <item>Afghanistan</item>
+        <item>India</item>
+        <item>Pakistan</item>
+        <item>Afghanistan</item>
+        <item>Bangladesh</item>
+        <item>Afghanistan</item>
+        <item>Pakistan</item>
+        <item>Afghanistan</item>
+    </array>
+    <array name="scheduleTwoTeam">
+        <item>Sri Lanka</item>
+        <item>Pakistan</item>
+        <item>Sri Lanka</item>
+        <item>Hong Kong</item>
+        <item>India</item>
+        <item>Bangladesh</item>
+        <item>India</item>
+        <item>Pakistan</item>
+        <item>Afghanistan</item>
+        <item>India</item>
+    </array>
+    <array name="stadium_image">
+        <item>https://www.mykhel.com/img/2021/09/dubaistadiumnew-1631877831.jpg</item>
+        <item>https://images.indianexpress.com/2021/08/sharjah-cricket-stadium.jpg</item>
+    </array>
+    <array name="stadium_name">
+        <item>Mahinda Rajapaksa International Stadium</item>
+        <item>Pallekele International Cricket Stadium</item>
+        <item>R.Premadasa Stadium</item>
+    </array>
+</resources>

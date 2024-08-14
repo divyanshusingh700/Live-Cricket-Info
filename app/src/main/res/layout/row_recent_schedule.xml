@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background_color"
+    >
+
+    <soup.neumorphism.NeumorphCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/imageCardView"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:padding="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view"
+                >
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/firstTeamImageViewId"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/sri_flag"
+                    />
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:padding="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageCardView"
+                >
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/secondImageViewId"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/sri_flag"
+                    />
+            </soup.neumorphism.NeumorphCardView>
+
+            <TextView
+                android:id="@+id/firstTeamNameId"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textview_shape"
+                android:fontFamily="@font/days_one"
+                android:gravity="center"
+                android:paddingLeft="20sp"
+                android:paddingTop="10sp"
+                android:paddingRight="20sp"
+                android:paddingBottom="10sp"
+                android:text="Bangladesh"
+                android:textColor="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageCardView"
+                />
+
+            <TextView
+                android:id="@+id/secondTeamNameId"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textview_leftradius"
+                android:fontFamily="@font/days_one"
+                android:gravity="center"
+                android:paddingLeft="20sp"
+                android:paddingTop="10sp"
+                android:paddingRight="20sp"
+                android:paddingBottom="10sp"
+                android:text="India"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageCardView"
+                />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="v/s"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/firstTeamNameId"
+                app:layout_constraintEnd_toStartOf="@+id/secondTeamNameId"
+                app:layout_constraintStart_toEndOf="@+id/firstTeamNameId"
+                app:layout_constraintTop_toTopOf="@+id/imageCardView"
+                />
+
+            <TextView
+                android:id="@+id/dateTextViewId"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/days_one"
+                android:gravity="center"
+                android:text="Feb 25, Tue"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/scoreTextView"
+                />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:fontFamily="@font/doppio_one"
+                android:text="Asia cup"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toStartOf="@+id/matchNoId"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+
+            <TextView
+                android:id="@+id/matchNoId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/doppio_one"
+                android:text="1st Match"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/shadow_color"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView7"
+                />
+
+            <TextView
+                android:id="@+id/scoreTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="IND 188-7 (20 Ovs)\10WI 100 (15.4 Ovs)"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/firstTeamNameId"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </soup.neumorphism.NeumorphCardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
