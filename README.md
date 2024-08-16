@@ -30,6 +30,7 @@ Follow these steps to set up and run the Live Cricket Info application on your l
 ```bash
 git clone https://github.com/divyanshusingh700/live-cricket-info.git
 cd live-cricket-info
+```
 ### 2. Open the Project in Android Studio
 
 - Launch Android Studio.
@@ -68,7 +69,8 @@ Ensure you have the necessary permissions for internet access and Firebase messa
     </service>
     ...
 </application>
-6. Build the APK or AAB
+```
+### 6. Build the APK or AAB
 To generate an APK or AAB file, follow these steps:
 
 Open Build Menu:
@@ -84,18 +86,18 @@ Generate AAB:
 Select Build Bundle(s) / APK(s).
 Choose Build Bundle(s).
 Android Studio will build the AAB, and you will receive a notification once it's done. You can find the AAB file in the app/build/outputs/bundle/ directory.
-7. Run the Application
+### 7. Run the Application
 Connect an Android device or start an emulator.
 Click the "Run" button (green play arrow) in Android Studio.
 Select your device or emulator from the list.
 The app will be installed and launched on your device/emulator, and you can start using it to view live cricket match updates.
 
-Contributing
+### Contributing
 Feel free to contribute by submitting issues or pull requests. For major changes, please open an issue first to discuss what you would like to change.
 
-License
+### License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Contact
+### Contact
 For any questions or feedback, please reach out to [divyanshusingh9314@gmail.com] or [divyanshu0924@gmail.com].
 
